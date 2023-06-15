@@ -2,7 +2,7 @@
 library(Biostrings)
 library(tidyverse)
 
-genome <- readDNAStringSet(filepath = "C:\\Users\\lopezmam\\Desktop\\Marco\\Publications\\Monkeypox\\caulobacter.fasta")
+genome <- readDNAStringSet(filepath = "")
 genome <- genome$`CP034122.1 Caulobacter vibrioides strain CB2A chromosome, complete genome`
 genome <- as.character(genome)
 primer_f <- "GGAAAGTGTAAAGACAACGAATACAG"
